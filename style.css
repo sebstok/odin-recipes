@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #252422;
+}
+
+div {
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #eb5e28;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.recipes-list {
+  list-style: none;
+}
+
+.recipe:link,
+.recipe:visited {
+  display: inline-block;
+  color: #252422;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+}
+
+.recipe:hover,
+.recipe:active {
+  background-color: #ccc5b9;
+}
